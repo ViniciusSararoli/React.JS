@@ -39,3 +39,35 @@
   background: indigo;
   color: #fff;
 }
+
+.product-list .action {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.product-list .action button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  background: indigo;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.product-list .action button:hover {
+  opacity: 0.7;
+}
+
+
+.product-list  .action button[disabled]{
+  opacity: 0.5;
+  cursor: default;
+  display: none;
+}
+.product-list  .action button[disabled]:hover{
+  opacity: 0.5;
+}
