@@ -1,2 +1,2 @@
 # React.JS
- Curso Starte Rocketseat de React.JS
+ Curso Startes Rocketseat de React.JS
